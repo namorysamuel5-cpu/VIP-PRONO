@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin – Pronostics VIP</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <script src="admin.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Admin – Pronostics VIP</h1>
+    <p>Espace réservé à l’administrateur uniquement</p>
+  </header>
+
+  <nav>
+    <a href="../index.html">Accueil</a>
+    <a href="admin.html">Admin</a>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Activer / Désactiver VIP</h2>
+      <p>Entrer l’ID abonné (ex: USER-12345) :</p>
+      <input type="text" id="inputId" placeholder="ID abonné" />
+      <br />
+      <button onclick="activateVip()">Activer VIP 1 mois</button>
+      <button onclick="deactivateVip()">Désactiver VIP</button>
+    </section>
+
+    <section>
+      <h2>Générer une clé VIP</h2>
+      <p>Exemple : VIP-12345-ABC123</p>
+      <input type="text" id="inputIdVip" placeholder="ID abonné" />
+      <br />
+      <button onclick="generateVipKey()">Générer clé VIP</button>
+    </section>
+
+    <section>
+      <h2>Recharge et points</h2>
+      <p>Recharge : +225 01 00 96 78 75</p>
+      <p>Points : 100 points = 1 000 F → 1 pronostic VIP.</p>
+    </section>
+  </main>
+</body>
+</html>
