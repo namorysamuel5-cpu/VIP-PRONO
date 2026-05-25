@@ -1,0 +1,20 @@
+{
+  "packs": [
+    {
+      "id": "1",
+      "name": "1 mois",
+      "price_f": 10000,
+      "points": 1000,
+      "duration_days": 30,
+      "desc": "Abonnement VIP 1 mois"
+    },
+    {
+      "id": "2",
+      "name": "2 semaines",
+      "price_f": 5000,
+      "points": 500,
+      "duration_days": 14,
+      "desc": "Abonnement VIP 2 semaines"
+    }
+  ]
+}
